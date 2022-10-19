@@ -1,0 +1,65 @@
+.background{
+    background:url(images/fon_Jeka.jpg) center no-repeat;
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.Name{
+    
+    padding-top: 25px;
+    background-color: rgb(69, 69, 69);
+    font-size: 30px;
+    transition: none;
+    cursor: default;
+    font-family: 'Gemunu Libre';
+    font-size: 700;
+}
+.Name:hover {
+    background-color: rgb(69, 69, 69);
+    color: white;
+}
+.Name:active{
+    background-color: rgb(69, 69, 69);
+}
+  button:active{
+      background-color: rgb(69, 69, 69);;
+  }
+
+button {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: none;
+    background-color: #830b23;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    /* font-family: Arial; */
+    transition: color 0.5s, background-color 0.5s;
+}
+button:hover {
+  background-color: #ec5c66;
+  /* color: black; */
+}
+button:active{
+    background-color: #f2858b;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+body{
+    padding-bottom: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}

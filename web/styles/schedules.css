@@ -1,0 +1,68 @@
+
+.but1{
+    background-color: #570205;
+
+}
+.but1:hover{
+    background-color: #760004;
+
+}
+
+.schedules-menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin: 70px;
+    margin-top: 40px;
+    
+}
+
+.sched1{
+    display: flex;
+    
+}
+
+.data{
+    color: rgb(205, 189, 189);
+    background-color: darkred;
+    width: 120px;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 33px;
+
+}
+.towns{
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    padding-top:40px;
+    padding-bottom: 33px;
+}
+.place{
+    background-color: white;
+    flex:1;
+    /* text-align: center; */
+    padding-top:40px;
+    padding-bottom: 33px;
+}
+.tickets{
+    background-color: darkred;
+    color: white;
+    width: 80px;
+    padding-top:40px;
+    padding-bottom: 33px;
+    text-align: center;
+}
+
+.inf{
+    /* display: inline-block; */
+    color: white;
+    text-align: center;
+    border: solid;
+    border-color: black;
+    margin: 50px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(146, 15, 15);
+    margin-bottom: 10px;
+}

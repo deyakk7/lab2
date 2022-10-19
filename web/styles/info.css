@@ -1,0 +1,57 @@
+.but4{
+    background-color: #570205;
+
+}
+.but4:hover{
+    background-color: #760004;
+
+}
+
+.inf{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    color:white;
+    font-size: bold;
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.all{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.left-side{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.right-side{
+    font-size: 30px;
+    margin: 50px;
+    display: grid;
+    row-gap: 20px;
+}
+
+.buy-ticket{
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 150px;
+}
+
+.to{
+    color:white;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 150px;
+}

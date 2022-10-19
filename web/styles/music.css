@@ -1,0 +1,41 @@
+
+.but2{
+    background-color: #570205;
+
+}
+.but2:hover{
+    background-color: #760004;
+
+}
+
+.all-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    text-align: center;
+    margin: 40px;
+}
+
+.all-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    text-align: center;
+    margin: 40px;
+}
+
+.all-grid3{
+    display: grid;
+    grid-template-columns: 1fr; 
+    text-align: center;
+    margin: 40px;
+}
+
+
+.name{
+    color: white;
+    font-size: 20px;
+
+}
+
+.video2{
+    width: 330px;
+}
